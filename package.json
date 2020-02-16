@@ -1,5 +1,5 @@
 {
-  "name": "octo-viz",
+  "name": "github-visualizer",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "babel-plugin-styled-components": "^1.10.7",
     "next": "9.2.1",
     "react": "16.12.0",

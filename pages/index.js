@@ -34,18 +34,18 @@ const Profile = ({ theme }) => {
     return (
         <Wrapper>
             <Head>
-                <title>OctoViz - Visualize your github profile</title>
+                <title>Github Visualizer - Visualize your github profile</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div>
                 <img src="/github.png" alt="" />
-                <p>OctoViz</p>
+                <p>Github Visualizer</p>
                 <Heading>Visualize Your Github Profile</Heading>
             </div>
             {error && <p className="error">Username is required</p>}
             <form onSubmit={handleSubmit}>
                 <Label htmlFor="username">Username</Label>
-                <Input type="text" id="username" name="username" onChange={handleChange} value={username} placeholder="imtrent"/>
+                <Input type="text" id="username" name="username" onChange={handleChange} value={username} placeholder="imtrent" />
                 <Button>Search</Button>
             </form>
         </Wrapper>
